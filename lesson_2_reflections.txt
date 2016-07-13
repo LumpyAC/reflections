@@ -13,4 +13,8 @@ branches help by letting you test out said new feature or change while keeping t
 
 How do the diagrams help you visualize the branch structure?
 diagrams allow for a better understanding of who git creates branches and how they are linked 
-i think git might actually have a type of tree data structure under the hood
+i think git might actually have a type of tree or graph data structure under the hood
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+the result or merging two branches is a union between two sets 
+we represent it that way because the merged branch is the new master branch
