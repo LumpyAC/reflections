@@ -18,3 +18,7 @@ i think git might actually have a type of tree or graph data structure under the
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 the result or merging two branches is a union between two sets 
 we represent it that way because the merged branch is the new master branch
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+automatic merging is easier and faster but doesn't work when files are in conflict 
+manual merging avoids conflicts but it's not as easy or fast as automatic merging
