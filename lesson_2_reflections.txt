@@ -6,3 +6,7 @@ staging area is a cache and it lets you organize a commit
 
 How can you use the staging area to make sure you have one commit per logical change?
 using git diff -staged you can compare files in your working directory and your staging area
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+if you want to add an experimental feature or any kind of change that would modify the game in a major way using a branch is recommended 
+branches help by letting you test out said new feature or change while keeping the working version of your code intact 
