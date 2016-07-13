@@ -3,3 +3,6 @@ git creates a hidden folder with metadata
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 staging area is a cache and it lets you organize a commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+using git diff -staged you can compare files in your working directory and your staging area
